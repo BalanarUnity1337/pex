@@ -1,0 +1,28 @@
+.contact-block {
+  flex: 0 0 30%;
+}
+
+.contact-block__title {
+  font-size: 15px;
+  line-height: 26px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.contact-block__text {
+  @include paragraph-reset();
+  margin-top: 12px;
+  margin-bottom: 29px;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.contact-block__contact {
+  color: inherit;
+  font-size: 15px;
+  line-height: 26px;
+
+  &--mail {
+    text-decoration: underline;
+  }
+}

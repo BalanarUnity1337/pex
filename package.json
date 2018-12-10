@@ -1,0 +1,26 @@
+{
+  "name": "pex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "grunt build",
+    "start": "npm run build && grunt server"
+  },
+  "author": "I.E.A",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^9.1.5",
+    "grunt": "^1.0.3",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-cli": "^1.3.1",
+    "grunt-contrib-clean": "^2.0.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-csso": "^2.2.1",
+    "grunt-postcss": "^0.9.0",
+    "grunt-sass": "^3.0.1",
+    "load-grunt-tasks": "^4.0.0",
+    "node-sass": "^4.9.3"
+  }
+}

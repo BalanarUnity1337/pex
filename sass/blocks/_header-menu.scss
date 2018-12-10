@@ -1,0 +1,32 @@
+.header-menu {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-menu__logo {
+  flex: 0 0 auto;
+}
+
+.header-menu__logo-link {
+  display: inline-block;
+  vertical-align: middle;
+
+  svg {
+    fill: #e7526b;
+    fill-rule: evenodd;
+  }
+}
+
+.header-menu__logo-text {
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: -10px;
+  margin-left: 5px;
+
+  svg {
+    fill: #fff;
+    fill-rule: evenodd;
+  }
+}

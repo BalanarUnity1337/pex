@@ -1,0 +1,11 @@
+.page-footer {
+  background-color: #2e3b4e;
+}
+
+.page-footer__inner {
+  @include container();
+  padding-top: 38px;
+  padding-bottom: 50px;
+  font-size: 12px;
+  line-height: 20px;
+}
